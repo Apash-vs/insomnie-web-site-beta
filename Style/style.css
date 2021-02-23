@@ -148,13 +148,6 @@ a {
   transition: all 0.3s ease;
 }
 
-/* .card:hover .icon-in-button i {
-  background: linear-gradient(90deg,#46b546, #00ff00);
-   -webkit-background-clip: border-box;
-  -webkit-text-fill-color: transparent;
-  opacity: 1;
-  transition: all 0.3s ease;
-} */
 .discord:hover{
   text-decoration: underline;
   opacity: 1;
