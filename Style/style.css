@@ -148,6 +148,13 @@ a {
   transition: all 0.3s ease;
 }
 
+/* .card:hover .icon-in-button i {
+  background: linear-gradient(90deg,#46b546, #00ff00);
+   -webkit-background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  transition: all 0.3s ease;
+} */
 .discord:hover{
   text-decoration: underline;
   opacity: 1;
@@ -162,3 +169,65 @@ a {
   font-size: 175%;
   font-weight: bold;
 }
+footer {
+  background-color: #1D1D1D;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: #FFFAE1;
+}
+button:hover {
+  background-color: #0dff00;
+  color: #FFFAE1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #FFFAE1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  font-weight: bold;
+  width: 50%;
+  text-align: left;
+  color: #FFFAE1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: #FFFAE1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;}
